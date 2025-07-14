@@ -14,11 +14,11 @@
 -  **COGNITO-MAP**: Classifying educational questions with Bloom’s Taxonomy
 
 ---
-## 🚀 What I'm Working On
+##  What I'm Working On
 
-- 🧠 **CareMind**: Enhancing a clinical QA system by integrating agentic components into a Retrieval-Augmented Generation (RAG) pipeline. Exploring LLM agents and reasoning frameworks to improve patient-specific response quality and reliability.  
-- 🔍 Investigating **agentic systems** with tools like LangChain and AutoGen to enable goal-directed behavior in medical AI applications  
-## 🛠️ Tech Stack & Tools
+- **CareMind**: Enhancing a clinical QA system by integrating agentic components into a Retrieval-Augmented Generation (RAG) pipeline. Exploring LLM agents and reasoning frameworks to improve patient-specific response quality and reliability.  
+-  Investigating **agentic systems** with tools like LangChain and AutoGen to enable goal-directed behavior in medical AI applications  
+##  Tech Stack & Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -33,17 +33,17 @@
 
 ---
 
-## 📈 GitHub Stats
+##  GitHub Stats
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shreevm&layout=compact&theme=tokyonight)
 
 
 ---
 
-## 💼 Connect with Me
+##  Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreevaraamangai/)
 [![GitHub](https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shreevm)
-📫 Email: shreevaraamangai@gmail.com
+Email: shreevaraamangai@gmail.com
 
 ---
 
