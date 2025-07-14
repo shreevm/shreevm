@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 What I'm Working On
+##  My Key projects 
 
 -  **CareMind**: Clinical QA using LLaMA + MIMIC-IV with RAG & BioBERT  
 -  **Multimodal Spoken Command Recognition**: Fusing Wav2Vec2 & BERT with vector search  
@@ -14,7 +14,10 @@
 -  **COGNITO-MAP**: Classifying educational questions with Bloom’s Taxonomy
 
 ---
+## 🚀 What I'm Working On
 
+- 🧠 **CareMind**: Enhancing a clinical QA system by integrating agentic components into a Retrieval-Augmented Generation (RAG) pipeline. Exploring LLM agents and reasoning frameworks to improve patient-specific response quality and reliability.  
+- 🔍 Investigating **agentic systems** with tools like LangChain and AutoGen to enable goal-directed behavior in medical AI applications  
 ## 🛠️ Tech Stack & Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
