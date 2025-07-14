@@ -34,9 +34,8 @@
 ---
 
 ## 📈 GitHub Stats
-
-![Shree's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shreevm&show_icons=true&theme=tokyonight&hide_title=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shreevm&layout=compact&theme=tokyonight)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shreevm&theme=github-compact)
 
 ---
 
