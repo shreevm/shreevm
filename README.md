@@ -1,16 +1,48 @@
-## Hi there 👋
+# 👋 Hello there, I'm Shree Varaa Mangai!
 
-<!--
-**shreevm/shreevm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Master’s student in Artificial Intelligence Systems @ **University of Florida**  
+-Passionate about **LLMs, multimodal learning**, and building intelligent, human-centered systems  
+-Bridging the gap between data, design & deep learning  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 What I'm Working On
+
+-  **CareMind**: Clinical QA using LLaMA + MIMIC-IV with RAG & BioBERT  
+-  **Multimodal Spoken Command Recognition**: Fusing Wav2Vec2 & BERT with vector search  
+- **VISION-CLARITY**: Mitigating hallucination in vision-language models (ViT + BLIP)  
+-  **COGNITO-MAP**: Classifying educational questions with Bloom’s Taxonomy
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-FFFFFF?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=black)
+![Pinecone](https://img.shields.io/badge/Pinecone-00A693?style=for-the-badge&logo=pinecone&logoColor=white)
+
+---
+
+## 📈 GitHub Stats
+
+![Shree's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shreevm&show_icons=true&theme=tokyonight&hide_title=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shreevm&layout=compact&theme=tokyonight)
+
+---
+
+## 💼 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreevaraamangai/)
+[![GitHub](https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shreevm)
+📫 Email: shreevaraamangai@gmail.com
+
+---
+
+> “Design intelligent systems that make sense — and make a difference.”
