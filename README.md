@@ -6,16 +6,17 @@
 
 ---
 
-##  My Key projects 
+##  My Key Ongoing/completed projects 
 
 -  **CareMind**: Clinical QA using LLaMA + MIMIC-IV with RAG & BioBERT  
--  **Multimodal Spoken Command Recognition**: Fusing Wav2Vec2 & BERT with vector search  
+-  **Insight**: AI Marketing Agent for Meta Ads
 - **VISION-CLARITY**: Mitigating hallucination in vision-language models (ViT + BLIP)  
 -  **COGNITO-MAP**: Classifying educational questions with Bloom’s Taxonomy
 
 ---
 ##  What I'm Working On
-
+- **InsightPilot**: Developing an AI marketing analyst agent that integrates with the Meta Ads API to fetch real-time campaign data (impressions, spend, CTR, conversions).
+- Connecting directly to the Meta Ads API to pull fresh campaign/ad set data (impressions, CTR, spend, conversions, etc.).Ensuring that the system can query live KPIs rather than relying only on pre-stored embeddings.
 - **CareMind**: Enhancing a clinical QA system by integrating agentic components into a Retrieval-Augmented Generation (RAG) pipeline. Exploring LLM agents and reasoning frameworks to improve patient-specific response quality and reliability.  
 -  Investigating **agentic systems** with tools like LangChain and AutoGen to enable goal-directed behavior in medical AI applications  
 ##  Tech Stack & Tools
