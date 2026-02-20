@@ -34,11 +34,7 @@
 
 ---
 
-##  GitHub Stats
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shreevm&layout=compact&theme=tokyonight)
 
-
----
 
 ##  Connect with Me
 
@@ -48,4 +44,4 @@ Email: shreevaraamangai@gmail.com
 
 ---
 
-> “Design intelligent systems that make sense — and make a difference.”
+> “Design intelligent systems that make sense and make a difference.”
