@@ -8,7 +8,7 @@
 
 ##  My Key Ongoing/completed projects 
 
--  **CareMind**: Clinical QA using LLaMA + MIMIC-IV with RAG & BioBERT  
+-  **CareMind**: Agentic clinical RAG assistant with LangGraph, MCP tool server, NVIDIA NIM & Pinecone
 -  **Insight**: AI Marketing Agent for Meta Ads
 - **VISION-CLARITY**: Mitigating hallucination in vision-language models (ViT + BLIP)  
 -  **COGNITO-MAP**: Classifying educational questions with Bloom’s Taxonomy
@@ -17,7 +17,7 @@
 ##  What I'm Working On
 - **InsightPilot**: Developing an AI marketing analyst agent that integrates with the Meta Ads API to fetch real-time campaign data (impressions, spend, CTR, conversions).
 - Connecting directly to the Meta Ads API to pull fresh campaign/ad set data (impressions, CTR, spend, conversions, etc.).Ensuring that the system can query live KPIs rather than relying only on pre-stored embeddings.
-- **CareMind**: Enhancing a clinical QA system by integrating agentic components into a Retrieval-Augmented Generation (RAG) pipeline. Exploring LLM agents and reasoning frameworks to improve patient-specific response quality and reliability.  
+- **CareMind**: Built an agentic RAG pipeline using **LangGraph** for multi-step query routing across document retrieval, report comparison, and medical education workflows. Engineered an **MCP tool server** for document search and timeline extraction, with **NVIDIA NIM embeddings**, **Pinecone** vector search, and a Redis response cache — accessible via both React web and VS Code extension.
 -  Investigating **agentic systems** with tools like LangChain and AutoGen to enable goal-directed behavior in medical AI applications  
 ##  Tech Stack & Tools
 
@@ -40,6 +40,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreevaraamangai/)
 [![GitHub](https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shreevm)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@shreevaraamangai)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioprofile-git-main-shreevarvenkatr-7223s-projects.vercel.app?_vercel_share=tstTU92XwG3NsvUjmzG33Lk9rSjaZgQT)
 Email: shreevaraamangai@gmail.com
 
 ---
