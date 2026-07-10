@@ -132,5 +132,6 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
 ---
-> “Design intelligent systems that make sense and make a difference.”
+
+ \> “Design intelligent systems that make sense and make a difference.”
 
