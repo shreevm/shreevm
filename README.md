@@ -5,7 +5,7 @@
   <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-shreevaraamangai%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"></a>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a>
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=blueviolet&style=flat">
+  <img src="https://komarev.com/ghpvc/?username=shreevm&label=Profile%20Views&color=blueviolet&style=flat">
 </p>
 
 ---
@@ -78,25 +78,25 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[CareMind](GITHUB_LINK)** — Agentic Clinical RAG Assistant | LangGraph-based multi-step query router across document retrieval, report comparison, and medical education workflows over synthetic medical PDFs. Custom MCP tool server for document search and timeline extraction, cited answers via NVIDIA NIM embeddings + Pinecone, FastAPI backend with Redis caching and a route-accuracy/citation-pass-rate eval pipeline. Available as web app and VS Code extension. | Python, FastAPI, LangGraph, Pinecone, Redis, NVIDIA NIM, MCP, React, TypeScript |
+| **[CareMind](GITHUB_LINK)** : Agentic Clinical RAG Assistant | LangGraph-based multi-step query router across document retrieval, report comparison, and medical education workflows over synthetic medical PDFs. Custom MCP tool server for document search and timeline extraction, cited answers via NVIDIA NIM embeddings + Pinecone, FastAPI backend with Redis caching and a route-accuracy/citation-pass-rate eval pipeline. Available as web app and VS Code extension. | Python, FastAPI, LangGraph, Pinecone, Redis, NVIDIA NIM, MCP, React, TypeScript |
 | **[Multi-Image Super Resolution for Prostate MRI](GITHUB_LINK)** | Reconstructs missing/low-resolution prostate MRI slices at clinical-grade anatomical consistency. Compared CNN, SRGAN, and diffusion architectures on PSNR/SSIM and qualitative anatomical review to minimize hallucinated structures. | PyTorch, CNN, GAN, Diffusion Models, OpenCV, NumPy |
 | **[Multimodal Spoken Command Recognition](GITHUB_LINK)** | Fuses Wav2Vec2 audio embeddings with BERT semantic embeddings via cross-attention and Transformer decoders to classify spoken commands; Pinecone retrieval to boost inference, with documented robustness limits under noisy conditions. | PyTorch, Hugging Face Transformers, Wav2Vec2, BERT, Pinecone, Scikit-learn |
-| **[CognitoMap](GITHUB_LINK)** — Automated Question Classification (Bloom's Taxonomy) | ETL pipeline extracting questions from PDFs into MongoDB (94% extraction accuracy via Gemini 1.0 Pro), classifies questions by Bloom's level using Sentence Transformer embeddings + Pinecone retrieval. Full-stack dashboard giving educators real-time cognitive-distribution insight. | Flask, React, MongoDB, Pinecone, Chart.js, TypeScript |
+| **[CognitoMap](GITHUB_LINK)** : Automated Question Classification (Bloom's Taxonomy) | ETL pipeline extracting questions from PDFs into MongoDB (94% extraction accuracy via Gemini 1.0 Pro), classifies questions by Bloom's level using Sentence Transformer embeddings + Pinecone retrieval. Full-stack dashboard giving educators real-time cognitive-distribution insight. | Flask, React, MongoDB, Pinecone, Chart.js, TypeScript |
 
 ---
 
 ###  Experience
 
-**ML Engineering Co-op** — AGIS Inc. (via UF IPPD) · *Aug 2025 – Apr 2026*
+**ML Engineering Co-op** : AGIS Inc. (via UF IPPD) · *Aug 2025 – Apr 2026*
 Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
 
-**Machine Learning Researcher** — UF Trustworthy Engineered Autonomy Lab · *Sep 2025 – Apr 2026*
+**Machine Learning Researcher** : UF Trustworthy Engineered Autonomy Lab · *Sep 2025 – Apr 2026*
 Benchmarked hallucination in text-to-video generation (Wan 2.1, HunyuanVideo) against T2V-CompBench/ViBe prompts; built a fine-grained hallucination taxonomy and evaluated VLM-based detection (Qwen3-VL) using Balanced Accuracy, Macro F1, AUROC, AUPRC.
 
-**Global People Analytics Intern** — Ford Motor Company · *Aug 2023 – Oct 2023*
+**Global People Analytics Intern** : Ford Motor Company · *Aug 2023 – Oct 2023*
 Built ARIMA/VAR/VECM and Lasso/Ridge forecasting models for workforce planning; ETL pipelines predicting salary costs across 1,000+ employee records, improving model accuracy by 20%.
 
-**Software Engineer Intern** — Spacescan Ltd. (Remote) · *Sep 2022 – Jan 2023*
+**Software Engineer Intern** : Spacescan Ltd. (Remote) · *Sep 2022 – Jan 2023*
 Built React.js interfaces integrating Swagger-documented REST APIs over PostgreSQL; contributed to the React Native mobile app and frontend architecture decisions.
 
 ---
