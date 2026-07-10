@@ -109,11 +109,11 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
 - Fine-Tuning LLMs for Cybersecurity — LinkedIn Learning (2025)
 - Tesla Stock Price Prediction / Google Cloud Fundamentals — Coursera
 - Cloud Computing & Distributed Systems / Java Programming — NPTEL
-
+<!---
 ---
 
 ### 📈 GitHub Stats
-<!---
+
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
@@ -121,14 +121,14 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
 </p>
-
----
 -->
+---
 ### 🤝 Let's Connect
 
 <p>
   <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://medium.com/@shreevaraamangai"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></a>
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
 ---
