@@ -131,7 +131,9 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
   <a href="https://medium.com/@shreevaraamangai"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></a>
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
+
 ---
+
 
  \> “Design intelligent systems that make sense and make a difference.”
 
