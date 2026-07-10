@@ -88,16 +88,16 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
 ###  Experience
 
 **ML Engineering Co-op** : AGIS Inc. (via UF IPPD) · *Aug 2025 – Apr 2026*
-<br> *Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
+- Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
 
-**Machine Learning Researcher** : Trustworthy Engineered Autonomy Lab(UF)·*Sep 2025 – Apr 2026*
-<br> *Benchmarked hallucination in text-to-video generation (Wan 2.1, HunyuanVideo) against T2V-CompBench/ViBe prompts; built a fine-grained hallucination taxonomy and evaluated VLM-based detection (Qwen3-VL) using Balanced Accuracy, Macro F1, AUROC, AUPRC.
+**Machine Learning Researcher** : Trustworthy Engineered Autonomy Lab(UF) · *Sep 2025 – Apr 2026*
+- Benchmarked hallucination in text-to-video generation (Wan 2.1, HunyuanVideo) against T2V-CompBench/ViBe prompts; built a fine-grained hallucination taxonomy and evaluated VLM-based detection (Qwen3-VL) using Balanced Accuracy, Macro F1, AUROC, AUPRC.
 
 **Global People Analytics Intern** : Ford Motor Company · *Aug 2023 – Oct 2023*
-<br. *Built ARIMA/VAR/VECM and Lasso/Ridge forecasting models for workforce planning; ETL pipelines predicting salary costs across 1,000+ employee records, improving model accuracy by 20%.
+- Built ARIMA/VAR/VECM and Lasso/Ridge forecasting models for workforce planning; ETL pipelines predicting salary costs across 1,000+ employee records, improving model accuracy by 20%.
 
 **Software Engineer Intern** : Spacescan Ltd. (Remote) · *Sep 2022 – Jan 2023*
-<br> *Built React.js interfaces integrating Swagger-documented REST APIs over PostgreSQL; contributed to the React Native mobile app and frontend architecture decisions.
+- Built React.js interfaces integrating Swagger-documented REST APIs over PostgreSQL; contributed to the React Native mobile app and frontend architecture decisions.
 
 ---
 
