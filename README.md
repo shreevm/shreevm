@@ -88,7 +88,7 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
 ###  Experience
 
 **ML Engineering Co-op** : AGIS Inc. (via UF IPPD) · *Aug 2025 – Apr 2026*
-Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
+<br> Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
 
 **Machine Learning Researcher** : UF Trustworthy Engineered Autonomy Lab · *Sep 2025 – Apr 2026*
 Benchmarked hallucination in text-to-video generation (Wan 2.1, HunyuanVideo) against T2V-CompBench/ViBe prompts; built a fine-grained hallucination taxonomy and evaluated VLM-based detection (Qwen3-VL) using Balanced Accuracy, Macro F1, AUROC, AUPRC.
