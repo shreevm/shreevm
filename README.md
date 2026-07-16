@@ -9,10 +9,20 @@
 </p>
 
 ---
+### 🎯 What I'm Looking For
+I am actively seeking **Entry-Level / Associate** roles starting immediately in:
+* **AI/ML Engineer**
+* **Computer Vision Engineer**
+* **Evaluation / Benchmark Engineer**
+* **Forward Deployed AI Engineer**
+
+*📧 Feel free to reach out via [Email](mailto:shreevaraamangai@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/shreevaraamangai/) if you have opportunities or want to collaborate!*
+
+---
 
 ### About Me
 
-I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Systems** at the University of Florida (GPA 3.90/4.0), working across generative 3D reconstruction, LLM evaluation, and agentic RAG systems. My background spans production ML pipelines, full-stack engineering, and applied research on trustworthy AI.
+I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the University of Florida (GPA 3.90/4.0), working across generative 3D reconstruction, LLM evaluation, and agentic RAG systems. My background spans production ML pipelines, full-stack engineering, and applied research on trustworthy AI.
 
 - 🔭 Currently building a real-time 3D asset reconstruction pipeline (2D Gaussian Splatting) at **AGIS Inc.**
 - 🔬 Researching hallucination detection in text-to-video models at UF's **Trustworthy Engineered Autonomy Lab**
