@@ -4,7 +4,7 @@
 <p align="center">
   <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-shreevaraamangai%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"></a>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
-  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a>
+  <!-- <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a> -->
   <img src="https://komarev.com/ghpvc/?username=shreevm&label=Profile%20Views&color=blueviolet&style=flat">
 </p>
 
@@ -135,5 +135,5 @@ I'm an ML/AI engineer currently pursuing my **MS in Artificial Intelligence Syst
 ---
 
 
- \> “Design intelligent systems that make sense and make a difference.”
+ \> Design intelligent systems that make sense and make a difference!
 
