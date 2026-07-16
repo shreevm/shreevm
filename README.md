@@ -88,8 +88,8 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[CareMind](https://github.com/shreevm/CareMind/tree/new_CareMind)** : Agentic Clinical RAG Assistant | LangGraph-based multi-step query router across document retrieval, report comparison, and medical education workflows over synthetic medical PDFs. Custom MCP tool server for document search and timeline extraction, cited answers via NVIDIA NIM embeddings + Pinecone, FastAPI backend with Redis caching and a route-accuracy/citation-pass-rate eval pipeline. Available as web app and VS Code extension. | Python, FastAPI, LangGraph, Pinecone, Redis, NVIDIA NIM, MCP, React, TypeScript |
-| **[Multi-Image Super Resolution for Prostate MRI](https://github.com/shreevm/MRI_Slice-SuperResolution)** | Reconstructs missing/low-resolution prostate MRI slices at clinical-grade anatomical consistency. Compared CNN, SRGAN, and diffusion architectures on PSNR/SSIM and qualitative anatomical review to minimize hallucinated structures. | PyTorch, CNN, GAN, Diffusion Models, OpenCV, NumPy |
+| **[CareMind](https://github.com/shreevm/CareMind/tree/new_CareMind)** : Agentic Clinical RAG Assistant | LangGraph-based multi-step query router across document retrieval, report comparison, and medical education workflows over synthetic medical PDFs. Custom MCP tool server for document search and timeline extraction, cited answers via NVIDIA NIM embeddings + Pinecone, FastAPI backend with Redis caching and a route-accuracy/citation-pass-rate eval pipeline. Available as web app. | Python, FastAPI, LangGraph, Pinecone, Redis, NVIDIA NIM, MCP, React, TypeScript |
+| **[Multi-Image Super Resolution for Prostate MRI](https://github.com/shreevm/MRI_Slice-SuperResolution)** | Developed a multi-image super-resolution pipeline to reconstruct missing or low-resolution prostate MRI slices, targeting clinical-grade anatomical consistency. Evaluated CNN, SRGAN, and diffusion-based architectures on PSNR, SSIM, and qualitative anatomical assessment, analysing tradeoffs between perceptual sharpness and structural fidelity to minimise hallucinated structures. | PyTorch, CNN, GAN, Diffusion Models, OpenCV, NumPy |
 | **[Multimodal Spoken Command Recognition](https://github.com/shreevm/Multimodal-Spoken-Command-Recognition-with-Audio-Text-Fusion-and-Vector-Retrieval)** | Fuses Wav2Vec2 audio embeddings with BERT semantic embeddings via cross-attention and Transformer decoders to classify spoken commands; Pinecone retrieval to boost inference, with documented robustness limits under noisy conditions. | PyTorch, Hugging Face Transformers, Wav2Vec2, BERT, Pinecone, Scikit-learn |
 | **[CognitoMap](https://github.com/shreevm/Cognitomap)** : Automated Question Classification (Bloom's Taxonomy) | ETL pipeline extracting questions from PDFs into MongoDB (94% extraction accuracy via Gemini 1.0 Pro), classifies questions by Bloom's level using Sentence Transformer embeddings + Pinecone retrieval. Full-stack dashboard giving educators real-time cognitive-distribution insight. | Flask, React, MongoDB, Pinecone, Chart.js, TypeScript |
 
@@ -99,17 +99,38 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 
 **ML Engineering Co-op** : AGIS Inc. (via UF IPPD) · *Aug 2025 – Apr 2026*
 - Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
+- Built an end-to-end pipeline that captures video/ image streams, reconstructs them into 3D assets using 2D Gaussian Splatting (2DGS), and integrates them into Unity for real-time interactive visualization.
+- Designed and trained neural reconstruction models (3DGS/2DGS, COLMAP/GLOMAP) on multi-view data to generate high-fidelity meshes and point clouds; selected 2DGS for its superior exportable mesh quality over 3DGS.
+- Accelerated large-scale reconstruction and rendering using NVIDIA B200 GPU clusters with CUDA nightly builds, significantly improving training throughput and pipeline scalability.
+- Investigated real-time vs. offline processing tradeoffs to optimize computational efficiency, reducing reconstruction latency and enabling practical deployment workflows.
+
 
 **Machine Learning Researcher** : Trustworthy Engineered Autonomy Lab(UF) · *Sep 2025 – Apr 2026*
 - Benchmarked hallucination in text-to-video generation (Wan 2.1, HunyuanVideo) against T2V-CompBench/ViBe prompts; built a fine-grained hallucination taxonomy and evaluated VLM-based detection (Qwen3-VL) using Balanced Accuracy, Macro F1, AUROC, AUPRC.
+- Designed and executed experiments generating videos with Wan 2.1 T2V 1.3B and HunyuanVideo from T2VCompBench and ViBe benchmark prompts, systematically quantifying semantic discrepancies between prompts and generated content.
+- Developed a fine-grained hallucination taxonomy identifying object omissions, attribute mismatches, spatial relationship errors, and semantic drift across video generation stages.
+- Benchmarked automated hallucination detection using Qwen3-VL and other VLMs on severity-level classification; evaluated using Balanced Accuracy, Macro F1, AUROC, and AUPRC
+
 
 **Global People Analytics Intern** : Ford Motor Company · *Aug 2023 – Oct 2023*
 - Built ARIMA/VAR/VECM and Lasso/Ridge forecasting models for workforce planning; ETL pipelines predicting salary costs across 1,000+ employee records, improving model accuracy by 20%.
+- Conducted statistical analysis and forecasting on time series forecasting models such as Autoregressive Integrated Moving Average (ARIMA), Vector Autoregression (VAR), and Vector Error Correction Model (VECM) and non-time series models, such as Lasso and Ridge regression, to determine optimal female incumbency.
+- Developed ETL pipelines in Python to predict salary costs using workforce datasets containing 1,000+ employee records, improving model accuracy by 20% through exploratory data analysis, feature engineering, and data quality improvements.
+
 
 **Software Engineer Intern** : Spacescan Ltd. (Remote) · *Sep 2022 – Jan 2023*
 - Built React.js interfaces integrating Swagger-documented REST APIs over PostgreSQL; contributed to the React Native mobile app and frontend architecture decisions.
+- Built and maintained responsive web interfaces in React.js, integrating REST APIs documented with Swagger to enable seamless frontend-backend communication over PostgreSQL databases.
+- Developed reusable, scalable UI components with robust state management patterns, reducing code duplication and improving long-term maintainability of the application.
+- Contributed to the React Native mobile app, implementing new features and participating in frontend architecture discussions to ensure consistency across web and mobile platforms.
+
 
 ---
+
+
+
+---
+
 
 ### Certifications
 
