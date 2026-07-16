@@ -113,12 +113,13 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 
 ### Certifications
 
-- Building with the Claude API — Anthropic (2026)
-- Build and Orchestrate Agents with Microsoft Foundry — Microsoft AI Skills Challenge (2026)
-- Fundamentals of Deep Learning — NVIDIA (2024)
-- Fine-Tuning LLMs for Cybersecurity — LinkedIn Learning (2025)
-- Tesla Stock Price Prediction / Google Cloud Fundamentals — Coursera
-- Cloud Computing & Distributed Systems / Java Programming — NPTEL
+- Building with the Claude API - Anthropic (July 2026)
+- Build and Orchestrate Agents with Microsoft Foundry - Microsoft AI Skills Challenge (Jun 2026)
+- Fundamentals of Deep Learning - NVIDIA (Nov 2024
+- Fine-Tuning LLMs for Cybersecurity (Mistral, Llama, AutoTrain, AutoGen, LLM Agents) - LinkedIn Learning (Jan 2025)
+- Tesla Stock Price Prediction & Google Cloud Fundamentals - Coursera (Dec 2023 / Aug 2022)
+- Cloud Computing & Distributed Systems; Java Programming - NPTEL (Mar 2021 / Oct 2021)
+
 <!---
 ---
 
