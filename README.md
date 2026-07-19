@@ -15,6 +15,7 @@ I am actively seeking **Entry-Level / Associate** roles starting immediately in:
 * **AI/ML Engineer**
 * **Computer Vision Engineer**
 * **Evaluation / Benchmark Engineer**
+*  **Software Engineering**
 
 
 *📧 Feel free to reach out via [Email](mailto:shreevaraamangai@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/shreevaraamangai/) if you have opportunities or want to collaborate!*
