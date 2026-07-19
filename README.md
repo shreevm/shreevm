@@ -24,7 +24,7 @@ I am actively seeking **Entry-Level / Associate** roles starting immediately in:
 
 ### About Me
 
-I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the University of Florida (GPA 3.90/4.0), working across generative 3D reconstruction, LLM evaluation, and agentic RAG systems. My background spans production ML pipelines, full-stack engineering, and applied research on trustworthy AI.
+I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the University of Florida (GPA 3.90/4.0), working across Agentic AI systems, fine-tuning LLMs, generative 3D reconstruction, LLM evaluation, and agentic RAG systems. My background spans production-grade ML pipelines, full-stack engineering, and applied research on trustworthy AI
 
 - 🔭 Built a real-time 3D asset reconstruction pipeline (2D Gaussian Splatting) at **AGIS Inc.**
 - 🔬 Researching hallucination detection in text-to-video models at UF's **Trustworthy Engineered Autonomy Lab**
