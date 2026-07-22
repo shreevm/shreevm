@@ -5,7 +5,7 @@
   <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-shreevaraamangai%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"></a>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
   <!-- <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a> -->
-  <a href="https://portfolioprofile-pi.vercel.app?_vercel_share=mj8fUEh9nv1U0Su8IF8uYM7StrSVgxkw"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a>
+  <a href="https://portfolioprofile-shreevarvenkatr-7223s-projects.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a>
   <img src="https://komarev.com/ghpvc/?username=shreevm&label=Profile%20Views&color=blueviolet&style=flat">
 </p>
 
