@@ -14,23 +14,23 @@
 
 
 <p align="center">
-  <img src="./assets/agent_banner.svg" alt="Shree VM – AI Engineer Hero Banner" />
+  <img src="./assets/banner.svg" alt="Shree VM – AI Engineer Hero Banner" />
 </p>
----
+<!-- ---
 ### 🎯 What I'm Looking For
 I am actively seeking **Entry-Level / Associate** roles starting immediately in:
 * **Forward Deployed AI Engineer**
 * **AI/ML Engineer**
 * **Computer Vision Engineer**
 * **Evaluation / Benchmark Engineer**
-*  **Software Engineering**
+*  **Software Engineering** -->
 
 
 *📧 Feel free to reach out via [Email](mailto:shreevaraamangai@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/shreevaraamangai/) if you have opportunities or want to collaborate!*
 
 ---
 
-### About Me
+<!-- ### About Me
 
 I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the University of Florida (GPA 3.90/4.0), working across Agentic AI systems, fine-tuning LLMs, generative 3D reconstruction, LLM evaluation, and agentic RAG systems. My background spans production-grade ML pipelines, full-stack engineering, and applied research on trustworthy AI
 
@@ -38,9 +38,9 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 - 🔬 Researching hallucination detection in text-to-video models at UF's **Trustworthy Engineered Autonomy Lab**
 - 🌱 Exploring agentic RAG, multi-agent systems, and MCP-based tool orchestration
 - 🎓 B.Tech in Information Technology, Loyola-ICAM College of Engineering and Technology (GPA 8.43/10)
-- 📫 Reach me at **shreevaraamangai@gmail.com**
+- 📫 Reach me at **shreevaraamangai@gmail.com** -->
 
----
+
 
 ### Engineering Stack
 
@@ -94,46 +94,236 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 
 ---
 
-### Featured Projects
+# Featured Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[CareMind](https://github.com/shreevm/CareMind/tree/new_CareMind)** : Agentic Clinical RAG Assistant | LangGraph-based multi-step query router across document retrieval, report comparison, and medical education workflows over synthetic medical PDFs. Custom MCP tool server for document search and timeline extraction, cited answers via NVIDIA NIM embeddings + Pinecone, FastAPI backend with Redis caching and a route-accuracy/citation-pass-rate eval pipeline. Available as web app. | Python, FastAPI, LangGraph, Supabase, Redis, NVIDIA NIM, MCP, React, TypeScript |
-| **[Multi-Image Super Resolution for Prostate MRI](https://github.com/shreevm/MRI_Slice-SuperResolution)** | Developed a multi-image super-resolution pipeline to reconstruct missing or low-resolution prostate MRI slices, targeting clinical-grade anatomical consistency. Evaluated CNN, SRGAN, and diffusion-based architectures on PSNR, SSIM, and qualitative anatomical assessment, analysing tradeoffs between perceptual sharpness and structural fidelity to minimise hallucinated structures. | PyTorch, CNN, GAN, Diffusion Models, OpenCV, NumPy |
-| **[Multimodal Spoken Command Recognition](https://github.com/shreevm/Multimodal-Spoken-Command-Recognition-with-Audio-Text-Fusion-and-Vector-Retrieval)** | Fuses Wav2Vec2 audio embeddings with BERT semantic embeddings via cross-attention and Transformer decoders to classify spoken commands; Pinecone retrieval to boost inference, with documented robustness limits under noisy conditions. | PyTorch, Hugging Face Transformers, Wav2Vec2, BERT, Pinecone, Scikit-learn |
-| **[CognitoMap](https://github.com/shreevm/Cognitomap)** : Automated Question Classification (Bloom's Taxonomy) | ETL pipeline extracting questions from PDFs into MongoDB (94% extraction accuracy via Gemini 1.0 Pro), classifies questions by Bloom's level using Sentence Transformer embeddings + Pinecone retrieval. Full-stack dashboard giving educators real-time cognitive-distribution insight. | Flask, React, MongoDB, Pinecone, Chart.js, TypeScript |
+### 🩺 CareMind: Agentic Clinical RAG Assistant
+📅 May 2026 – Jun 2026 | 🔗 [GitHub](https://github.com/shreevm/CareMind/tree/new_CareMind)
+
+```bash
+[Problem]
+Enable clinicians to retrieve, compare, and reason over
+large medical documents through a single intelligent interface.
+
+[Solution]
+✓ Built an Agentic RAG platform using LangGraph.
+✓ Designed multi-agent workflows for document retrieval,
+  report comparison, and medical education.
+✓ Developed a custom MCP server supporting document search,
+  timeline extraction, and citation-aware responses.
+✓ Optimized query latency using Redis caching and
+  NVIDIA NIM embeddings.
+
+[Highlights]
+✓ Multi-agent clinical reasoning workflow
+✓ Citation-aware semantic retrieval
+✓ Reduced redundant document retrieval through caching
+✓ Production-ready full-stack web application
+
+[Tech]
+Python | FastAPI | LangGraph | MCP | NVIDIA NIM |
+Redis | Supabase | React | TypeScript
+```
 
 ---
 
-###  Experience
+### 🧠 Multi-Image Super Resolution for Prostate MRI
+📅 Nov 2025 – Dec 2025 | 🔗 [GitHub](https://github.com/shreevm/MRI_Slice-SuperResolution)
 
-**ML Engineering Co-op** : AGIS Inc. (via UF IPPD) · *Aug 2025 – Apr 2026*
-- Built an end-to-end video/image → 3D asset pipeline using 2D Gaussian Splatting (2DGS) and COLMAP/GLOMAP, integrated into Unity for real-time visualization; accelerated training on NVIDIA B200 clusters with CUDA nightly builds.
-- Built an end-to-end pipeline that captures video/ image streams, reconstructs them into 3D assets using 2D Gaussian Splatting (2DGS), and integrates them into Unity for real-time interactive visualization.
-- Designed and trained neural reconstruction models (3DGS/2DGS, COLMAP/GLOMAP) on multi-view data to generate high-fidelity meshes and point clouds; selected 2DGS for its superior exportable mesh quality over 3DGS.
-- Accelerated large-scale reconstruction and rendering using NVIDIA B200 GPU clusters with CUDA nightly builds, significantly improving training throughput and pipeline scalability.
-- Investigated real-time vs. offline processing tradeoffs to optimize computational efficiency, reducing reconstruction latency and enabling practical deployment workflows.
+```bash
+[Problem]
+Reconstruct missing prostate MRI slices while preserving
+clinical-grade anatomical consistency.
 
+[Solution]
+✓ Developed CNN, SRGAN, and Diffusion-based
+  super-resolution pipelines.
+✓ Trained and evaluated models on 40,532 MRI slice pairs.
+✓ Benchmarked architectures using PSNR, SSIM, and
+  qualitative anatomical assessment.
 
-**Machine Learning Researcher** : Trustworthy Engineered Autonomy Lab(UF) · *Sep 2025 – Apr 2026*
-- Benchmarked hallucination in text-to-video generation (Wan 2.1, HunyuanVideo) against T2V-CompBench/ViBe prompts; built a fine-grained hallucination taxonomy and evaluated VLM-based detection (Qwen3-VL) using Balanced Accuracy, Macro F1, AUROC, AUPRC.
-- Designed and executed experiments generating videos with Wan 2.1 T2V 1.3B and HunyuanVideo from T2VCompBench and ViBe benchmark prompts, systematically quantifying semantic discrepancies between prompts and generated content.
-- Developed a fine-grained hallucination taxonomy identifying object omissions, attribute mismatches, spatial relationship errors, and semantic drift across video generation stages.
-- Benchmarked automated hallucination detection using Qwen3-VL and other VLMs on severity-level classification; evaluated using Balanced Accuracy, Macro F1, AUROC, and AUPRC
+[Highlights]
+✓ SRGAN achieved the highest reconstruction accuracy
+  (29.05 dB PSNR, 0.850 SSIM).
+✓ Diffusion models produced the strongest anatomical
+  continuity despite higher inference latency.
+✓ Quantified fidelity vs. perceptual realism trade-offs.
 
+[Tech]
+PyTorch | CNN | SRGAN | Diffusion Models |
+OpenCV | NumPy
+```
 
-**Global People Analytics Intern** : Ford Motor Company · *Aug 2023 – Oct 2023*
-- Built ARIMA/VAR/VECM and Lasso/Ridge forecasting models for workforce planning; ETL pipelines predicting salary costs across 1,000+ employee records, improving model accuracy by 20%.
-- Conducted statistical analysis and forecasting on time series forecasting models such as Autoregressive Integrated Moving Average (ARIMA), Vector Autoregression (VAR), and Vector Error Correction Model (VECM) and non-time series models, such as Lasso and Ridge regression, to determine optimal female incumbency.
-- Developed ETL pipelines in Python to predict salary costs using workforce datasets containing 1,000+ employee records, improving model accuracy by 20% through exploratory data analysis, feature engineering, and data quality improvements.
+---
 
+### 🎙 Multimodal Spoken Command Recognition
+📅 Oct 2025 – Nov 2025 | 🔗 [GitHub](https://github.com/shreevm/Multimodal-Spoken-Command-Recognition-with-Audio-Text-Fusion-and-Vector-Retrieval)
 
-**Software Engineer Intern** : Spacescan Ltd. (Remote) · *Sep 2022 – Jan 2023*
-- Built React.js interfaces integrating Swagger-documented REST APIs over PostgreSQL; contributed to the React Native mobile app and frontend architecture decisions.
-- Built and maintained responsive web interfaces in React.js, integrating REST APIs documented with Swagger to enable seamless frontend-backend communication over PostgreSQL databases.
-- Developed reusable, scalable UI components with robust state management patterns, reducing code duplication and improving long-term maintainability of the application.
-- Contributed to the React Native mobile app, implementing new features and participating in frontend architecture discussions to ensure consistency across web and mobile platforms.
+```bash
+[Problem]
+Improve spoken command recognition in noisy,
+real-world environments.
 
+[Solution]
+✓ Combined Wav2Vec2 audio embeddings with BERT
+  semantic embeddings through cross-attention.
+✓ Designed a Transformer-based multimodal
+  fusion architecture.
+✓ Integrated Pinecone vector retrieval to
+  improve inference robustness.
+
+[Highlights]
+✓ Improved semantic understanding of spoken commands
+✓ Increased robustness under noisy conditions
+✓ Demonstrated the effectiveness of multimodal fusion
+
+[Tech]
+PyTorch | Hugging Face | Wav2Vec2 | BERT |
+Transformer | Pinecone | Scikit-learn
+```
+
+---
+
+### 📚 CognitoMap: Bloom's Taxonomy Classifier
+📅 Feb 2024 – Apr 2024 | 🔗 [GitHub](https://github.com/shreevm/Cognitomap)
+
+```bash
+[Problem]
+Help educators automatically analyse the cognitive
+distribution of assessment questions.
+
+[Solution]
+✓ Built an ETL pipeline extracting questions from PDFs.
+✓ Achieved 94% extraction accuracy using Gemini.
+✓ Classified questions using Sentence Transformer
+  embeddings and Pinecone retrieval.
+✓ Developed a full-stack analytics dashboard.
+
+[Highlights]
+✓ 94% PDF extraction accuracy
+✓ Automated Bloom's Taxonomy classification
+✓ Real-time educator analytics dashboard
+
+[Tech]
+Python | Flask | React | MongoDB |
+Pinecone | Gemini API | Chart.js | TypeScript
+```
+---
+
+# WORK & RESEARCH Experience
+
+### ML Engineering Co-op | AGIS Inc. × University of Florida (IPPD)
+📍 Gainesville, FL | Aug 2025 – Apr 2026
+
+```bash
+[Challenge]
+Build an end-to-end pipeline that converts images/videos into
+high-fidelity, Unity-ready 3D assets.
+
+[Action]
+✓ Led the 2D Gaussian Splatting (2DGS) reconstruction stage.
+✓ Integrated SAM2 zero-shot segmentation, COLMAP/GLOMAP,
+  mesh generation, UV unwrapping, and Unity export.
+✓ Accelerated reconstruction on NVIDIA B200 GPU clusters
+  using CUDA nightly builds.
+
+[Impact]
+✓ 32.72 dB PSNR (target >30 dB)
+✓ 0.942 mean IoU (target ≥0.85)
+✓ Reduced meshes from 4.99M → 1M triangles
+✓ 94.18% valid texture coverage
+✓ 77.8% Gaussian retention after filtering
+✓ Delivered Unity-ready assets in 8 minutes
+✓ 47% faster than Kiri Engine
+
+[Tech]
+Python | PyTorch | CUDA | 2DGS | SAM2 |
+COLMAP | GLOMAP | Open3D | Unity
+```
+
+---
+
+### Machine Learning Researcher | Trustworthy Engineered Autonomy Lab
+📍 Gainesville, FL | Sep 2025 – Present
+
+```bash
+[Research Goal]
+Develop reliable methods to benchmark and detect
+hallucinations in text-to-video generative models.
+
+[Research]
+✓ Generated and annotated 15,000+ videos using Wan 2.1
+  and HunyuanVideo across T2VCompBench and ViBe.
+✓ Developed a fine-grained hallucination taxonomy covering
+  object, attribute, spatial, and semantic inconsistencies.
+✓ Benchmarking Qwen3-VL against 12+ VLM baselines for
+  hallucination detection and severity classification.
+✓ Investigating robust evaluation methodologies for
+  multimodal generative AI.
+
+[Current Findings]
+✓ Qwen3-VL currently leads all evaluated baselines on
+  T2VCompBench/Wan 2.1.
+✓ +6.5 point Balanced Accuracy over the strongest baseline.
+✓ Ongoing evaluation across additional datasets and models.
+
+[Tech]
+Python | PyTorch | vLLM | Qwen3-VL |
+Wan 2.1 | HunyuanVideo | T2VCompBench
+```
+
+---
+
+### Global People Analytics Intern | Ford Motor Company
+📍 Chennai, India | Aug 2023 – Oct 2023
+
+```bash
+[Challenge]
+Improve workforce planning and salary forecasting using
+large-scale employee analytics.
+
+[Action]
+✓ Built forecasting models using ARIMA, VAR, VECM,
+  Lasso, and Ridge regression.
+✓ Developed Python ETL pipelines for 1,000+
+  workforce records.
+✓ Performed feature engineering and exploratory
+  data analysis to improve model performance.
+
+[Impact]
+✓ Improved prediction accuracy by 20%
+✓ Automated salary cost forecasting
+✓ Supported data-driven workforce planning
+
+[Tech]
+Python | Pandas | Statsmodels |
+Scikit-learn | SQL
+```
+
+---
+
+### Software Engineer Intern | Spacescan Ltd.
+📍 Remote (Ontario, Canada) | Sep 2022 – Jan 2023
+
+```bash
+[Challenge]
+Build scalable web and mobile applications with
+maintainable frontend architecture.
+
+[Action]
+✓ Developed reusable React.js components.
+✓ Integrated Swagger-documented REST APIs with PostgreSQL.
+✓ Extended the React Native mobile application and
+  contributed to frontend architecture decisions.
+
+[Impact]
+✓ Reduced code duplication
+✓ Improved frontend maintainability
+✓ Delivered a consistent cross-platform user experience
+
+[Tech]
+React | React Native | TypeScript |
+PostgreSQL | Swagger
+```
 
 ---
 
@@ -151,7 +341,7 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 - Tesla Stock Price Prediction & Google Cloud Fundamentals - Coursera (Dec 2023 / Aug 2022)
 - Cloud Computing & Distributed Systems; Java Programming - NPTEL (Mar 2021 / Oct 2021)
 
-<!---
+-
 ---
 
 ### 📈 GitHub Stats
@@ -161,9 +351,9 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=shreevm&theme=tokyonight&hide_border=true" />
 </p>
--->
+
 ---
 ### 🤝 Let's Connect
 
