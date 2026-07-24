@@ -1,8 +1,8 @@
 
 <!-- 1. HERO BANNER SVG -->
 
-<h1 align="center">Hi, I'm Shree Varaa Mangai V 👋</h1>
-<h3 align="center">ML/AI Engineer · Full-Stack Developer · MS in Artificial Intelligence Systems, University of Florida</h3>
+<!-- <h1 align="center">Hi, I'm Shree Varaa Mangai V 👋</h1>
+<h3 align="center">ML/AI Engineer · Full-Stack Developer · MS in Artificial Intelligence Systems, University of Florida</h3> -->
 
 <p align="center">
   <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-shreevaraamangai%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"></a>
