@@ -9,6 +9,7 @@
 <p align="center">
   <img src="./assets/banner.svg" alt="Shree VM – AI Engineer Hero Banner" />
 </p>
+
 <!-- ---
 ### 🎯 What I'm Looking For
 I am actively seeking **Entry-Level / Associate** roles starting immediately in:
