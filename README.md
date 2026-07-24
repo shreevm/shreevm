@@ -1,3 +1,8 @@
+
+<!-- 1. HERO BANNER SVG -->
+<p align="center">
+  <img src="./assets/dark.svg" alt="Shree VM – AI Engineer Hero Banner" />
+</p>
 <h1 align="center">Hi, I'm Shree Varaa Mangai V 👋</h1>
 <h3 align="center">ML/AI Engineer · Full-Stack Developer · MS in Artificial Intelligence Systems, University of Florida</h3>
 

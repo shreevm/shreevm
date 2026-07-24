@@ -1,0 +1,655 @@
+<svg
+  width="1180"
+  height="610"
+  viewBox="0 0 1180 610"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- ========== DEFS ========== -->
+  <defs>
+    <!-- Background radial glows -->
+    <radialGradient id="bgGlowBlue" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlowPurple" cx="80%" cy="10%" r="55%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlowEmerald" cx="50%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glass panel gradient -->
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.90"/>
+      <stop offset="40%" stop-color="#020617" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <!-- Border shimmer gradient -->
+    <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(148,163,184,0.05)"/>
+      <stop offset="50%" stop-color="rgba(148,163,184,0.35)"/>
+      <stop offset="100%" stop-color="rgba(148,163,184,0.05)"/>
+    </linearGradient>
+
+    <!-- ASCII gradient (animated) -->
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color"
+                 values="#22D3EE; #7C3AED; #10B981; #22D3EE"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7C3AED">
+        <animate attributeName="stop-color"
+                 values="#7C3AED; #10B981; #22D3EE; #7C3AED"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color"
+                 values="#10B981; #22D3EE; #7C3AED; #10B981"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow filter for panels -->
+    <filter id="panelGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.47
+                0 0 0 0 0.72
+                0 0 0 0 0.91
+                0 0 0 0.25 0" result="glow"/>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"/>
+    </filter>
+
+    <!-- Soft inner shadow for glass look -->
+    <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="arithmetic"
+                   k2="-1" k3="1" result="innerShadow"/>
+      <feColorMatrix in="innerShadow" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic" in2="innerShadow" mode="normal"/>
+    </filter>
+
+    <!-- Noise texture -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="noStitch"
+        result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+       values="0 0 0 0 0
+               0 0 0 0 0
+               0 0 0 0 0
+               0 0 0 0.06 0"/>
+    </filter>
+
+    <!-- Scanline mask -->
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0" y="0" width="4" height="2" fill="rgba(15,23,42,0.7)"/>
+      <rect x="0" y="2" width="4" height="2" fill="rgba(15,23,42,0.0)"/>
+    </pattern>
+
+    <!-- Floating particle -->
+    <circle id="particleShape" r="1.5" fill="#22D3EE" opacity="0.5"/>
+
+    <!-- Typing cursor animation -->
+    <style>
+      .pill-bg:hover {
+        opacity: 0.95;
+      }
+    </style>
+  </defs>
+
+  <!-- ========== BACKGROUND ========== -->
+  <rect x="0" y="0" width="1180" height="610" fill="#030712"/>
+  <rect x="0" y="0" width="1180" height="610" fill="url(#bgGlowBlue)"/>
+  <rect x="0" y="0" width="1180" height="610" fill="url(#bgGlowPurple)"/>
+  <rect x="0" y="0" width="1180" height="610" fill="url(#bgGlowEmerald)"/>
+
+  <!-- Noise overlay -->
+  <rect x="0" y="0" width="1180" height="610" filter="url(#noise)">
+    <animate attributeName="opacity"
+             values="0.04;0.08;0.04"
+             dur="10s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Outer rounded border with shimmer -->
+  <rect x="10" y="10" width="1160" height="590" rx="30" ry="30"
+        fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+  <rect x="10" y="10" width="1160" height="590" rx="30" ry="30"
+        fill="none" stroke="url(#borderShimmer)" stroke-width="1">
+    <animate attributeName="stroke-dashoffset"
+             from="0" to="240"
+             dur="12s"
+             repeatCount="indefinite"/>
+    <animate attributeName="stroke-dasharray"
+             values="0 240;240 240;0 240"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ========== PANELS LAYOUT ========== -->
+  <!-- Left panel: ASCII terminal -->
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="420" height="530" rx="24" ry="24"
+          fill="url(#panelGrad)"
+          stroke="rgba(148,163,184,0.35)" stroke-width="1"
+          filter="url(#panelGlow)"/>
+
+    <!-- Glass reflection -->
+    <rect x="0" y="0" width="420" height="530" rx="24" ry="24"
+          fill="url(#panelGrad)" opacity="0.2">
+      <animate attributeName="opacity"
+               values="0.15;0.3;0.15"
+               dur="12s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Panel header -->
+    <rect x="0" y="0" width="420" height="40" rx="24" ry="24"
+          fill="rgba(15,23,42,0.95)"/>
+    <circle cx="22" cy="20" r="5" fill="#F97373"/>
+    <circle cx="38" cy="20" r="5" fill="#FACC15"/>
+    <circle cx="54" cy="20" r="5" fill="#22C55E"/>
+    <text x="80" y="24" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="13">
+      ./ai_agent_boot.sh
+    </text>
+
+    <!-- Scanline overlay -->
+    <rect x="0" y="40" width="420" height="490" fill="url(#scanlines)" opacity="0.22">
+      <animate attributeName="y"
+               from="40" to="60"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ASCII art group (floating) -->
+    <g transform="translate(30,80)">
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="30,80;30,78;30,82;30,80"
+                        dur="8s"
+                        repeatCount="indefinite"/>
+
+      <!-- Lines of ASCII (gradient-filled text) -->
+      <!-- Each line reveals sequentially with opacity animation -->
+
+      <text x="0" y="0" fill="url(#asciiGrad)" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ██████╗ ██╗  ██╗
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="0.4s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="18" fill="url(#asciiGrad)" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ██╔══██╗╚██╗██╔╝
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="0.8s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="36" fill="url(#asciiGrad)" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ██████╔╝ ╚███╔╝
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="1.2s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="54" fill="url(#asciiGrad)" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ██╔═══╝  ██╔██╗
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="1.6s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="72" fill="url(#asciiGrad)" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ██║      ██╔╝ ██╗
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="2.0s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="90" fill="url(#asciiGrad)" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ╚═╝      ╚═╝  ╚═╝
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="2.4s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <!-- Motto under ASCII -->
+      <text x="0" y="120" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        404: Comfort Zone Not Found
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.0s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="138" fill="#22D3EE" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        200: Ready for What's Next
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.4s" dur="0.6s"
+                 fill="freeze"/>
+      </text>
+
+      <!-- Boot log -->
+      <text x="0" y="172" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12" opacity="0">
+        $ ./boot.sh
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.6s" dur="0.3s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="190" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12" opacity="0">
+        Initializing AI Agent...
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.9s" dur="0.3s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="208" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12" opacity="0">
+        Loading portfolio...
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="4.2s" dur="0.3s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="226" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12" opacity="0">
+        Loading projects...
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="4.5s" dur="0.3s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="244" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12" opacity="0">
+        Loading experience...
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="4.8s" dur="0.3s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="262" fill="#22C55E" font-family="JetBrains Mono, monospace" font-size="12" opacity="0">
+        Done ✓
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="5.1s" dur="0.3s"
+                 fill="freeze"/>
+      </text>
+
+      <!-- Cursor blink at bottom -->
+      <text x="0" y="290" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13">
+        $
+        <animate attributeName="opacity"
+                 values="0;1;0"
+                 dur="1s"
+                 repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Floating particles -->
+    <g>
+      <use href="#particleShape" x="60" y="120">
+        <animateMotion dur="12s" repeatCount="indefinite"
+          path="M0,0 C40,-10 80,10 120,0 C160,-15 200,5 240,0"/>
+      </use>
+      <use href="#particleShape" x="240" y="260" fill="#7C3AED" opacity="0.6">
+        <animateMotion dur="16s" repeatCount="indefinite"
+          path="M0,0 C-30,40 60,80 120,40 C160,0 200,-40 240,0"/>
+      </use>
+      <use href="#particleShape" x="320" y="180" fill="#10B981" opacity="0.5">
+        <animateMotion dur="18s" repeatCount="indefinite"
+          path="M0,0 C-20,-30 40,-60 80,-30 C120,0 160,30 200,0"/>
+      </use>
+    </g>
+  </g>
+
+  <!-- ========== RIGHT PANEL: TERMINAL PROFILE ========== -->
+  <g transform="translate(500,40)">
+    <rect x="0" y="0" width="640" height="530" rx="24" ry="24"
+          fill="url(#panelGrad)" filter="url(#innerShadow)"
+          stroke="rgba(148,163,184,0.35)" stroke-width="1"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="640" height="46" rx="24" ry="24"
+          fill="rgba(15,23,42,0.96)"/>
+    <text x="26" y="28" fill="#CBD5F5" font-family="JetBrains Mono, monospace" font-size="14">
+      ai-engineer.sh
+    </text>
+    <circle cx="602" cy="23" r="3.5" fill="#64748B"/>
+    <circle cx="616" cy="23" r="3.5" fill="#64748B"/>
+
+    <!-- Greeting & typing -->
+    <g transform="translate(26,80)">
+      <text x="0" y="0" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="20">
+        Hi 👋 I'm Shree Varaa Mangai V
+      </text>
+
+      <!-- Animated typing role line: multiple phrases -->
+      <text id="roleLine" x="0" y="34" fill="#22D3EE"
+            font-family="JetBrains Mono, monospace" font-size="16">
+        Frontend Engineer
+        <animate attributeName="textLength" values="0;200" dur="0.01s" fill="freeze"/>
+        <animate attributeName="opacity"
+                 values="0;1;1;0"
+                 keyTimes="0;0.1;0.45;0.5"
+                 dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="text"
+                 values="Frontend Engineer;Full-Stack Developer;Open Source Contributor;AI/ML Engineer;AI Enthusiast;AI/ML Engineer"
+                 dur="8s" repeatCount="indefinite"/>
+      </text>
+
+      <!-- Typing cursor -->
+      <text x="260" y="34" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="16">
+        |
+        <animate attributeName="opacity"
+                 values="0;1;0"
+                 dur="0.8s"
+                 repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Info lines (sequential reveal) -->
+    <g transform="translate(26,140)">
+      <text x="0" y="0" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        Location      : Jacksonville, Florida · USA
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="1.0s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+      <text x="0" y="22" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        Education     : MS in Artificial Intelligence Systems · University of Florida
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="1.4s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+      <text x="0" y="44" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        Current Focus : Agentic RAG · Evaluation · Vision · Production AI systems
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="1.8s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+      <text x="0" y="66" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        Portfolio     : shreevm · Vercel
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="2.2s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+      <text x="0" y="88" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        Email         : shreevaraamangai@gmail.com
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="2.6s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- Agent code snippet -->
+    <g transform="translate(26,240)">
+      <text x="0" y="0" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        from curiosity import ideas
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.0s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+      <text x="0" y="22" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        from engineering import impact
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.4s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="52" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        agent = AIEngineer()
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="3.8s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="72" fill="#22D3EE" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        agent.train(projects=[
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="4.2s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="18" y="92" fill="#A5B4FC" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        "CareMind", "MRI Super Resolution",
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="4.6s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="18" y="112" fill="#A5B4FC" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        "CognitoMap", "3D Gaussian Splatting"
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="5.0s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="132" fill="#22D3EE" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        ])
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="5.4s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="154" fill="#10B981" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        agent.build()
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="5.8s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="174" fill="#10B981" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        agent.ship()
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="6.2s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+
+      <text x="0" y="196" fill="#22D3EE" font-family="JetBrains Mono, monospace" font-size="13" opacity="0">
+        next_role = await agent.find()
+        <animate attributeName="opacity"
+                 values="0;1"
+                 begin="6.6s" dur="0.4s"
+                 fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- Skills pills -->
+    <g transform="translate(26,440)">
+      <!-- Row 1 -->
+      <g>
+        <rect class="pill-bg" x="0" y="0" rx="999" ry="999" width="90" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="3.8s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="3s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="16" y="18" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          React
+        </text>
+      </g>
+
+      <g>
+        <rect class="pill-bg" x="100" y="0" rx="999" ry="999" width="90" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.0s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="3.5s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="116" y="18" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          Node.js
+        </text>
+      </g>
+
+      <g>
+        <rect class="pill-bg" x="200" y="0" rx="999" ry="999" width="105" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.2s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="4s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="216" y="18" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          TypeScript
+        </text>
+      </g>
+
+      <g>
+        <rect class="pill-bg" x="315" y="0" rx="999" ry="999" width="105" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.4s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="4.5s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="331" y="18" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          LangGraph
+        </text>
+      </g>
+
+      <!-- Row 2 -->
+      <g>
+        <rect class="pill-bg" x="0" y="36" rx="999" ry="999" width="90" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.6s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="3.8s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="16" y="54" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          Python
+        </text>
+      </g>
+
+      <g>
+        <rect class="pill-bg" x="100" y="36" rx="999" ry="999" width="90" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.8s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="4.2s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="116" y="54" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          Docker
+        </text>
+      </g>
+
+      <g>
+        <rect class="pill-bg" x="200" y="36" rx="999" ry="999" width="105" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="5.0s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="4.6s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="216" y="54" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          Postgres
+        </text>
+      </g>
+
+      <g>
+        <rect class="pill-bg" x="315" y="36" rx="999" ry="999" width="105" height="28"
+              fill="rgba(15,23,42,0.90)" stroke="#22D3EE" stroke-width="0.8" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="5.2s" dur="0.4s" fill="freeze"/>
+          <animate attributeName="stroke-width"
+                   values="0.8;1.4;0.8"
+                   dur="5s"
+                   repeatCount="indefinite"/>
+        </rect>
+        <text x="331" y="54" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="11">
+          AWS
+        </text>
+      </g>
+    </g>
+
+    <!-- Social icons row (minimal glowing circles) -->
+    <g transform="translate(26,510)">
+      <circle cx="12" cy="0" r="9" fill="rgba(15,23,42,0.95)" stroke="#22D3EE" stroke-width="0.8">
+        <animate attributeName="stroke-width"
+                 values="0.8;1.4;0.8"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="8" y="4" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="8">
+        GH
+      </text>
+
+      <circle cx="42" cy="0" r="9" fill="rgba(15,23,42,0.95)" stroke="#22D3EE" stroke-width="0.8">
+        <animate attributeName="stroke-width"
+                 values="0.8;1.4;0.8"
+                 dur="3.6s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="38" y="4" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="8">
+        IN
+      </text>
+
+      <circle cx="72" cy="0" r="9" fill="rgba(15,23,42,0.95)" stroke="#22D3EE" stroke-width="0.8">
+        <animate attributeName="stroke-width"
+                 values="0.8;1.4;0.8"
+                 dur="4s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="68" y="4" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="8">
+        X
+      </text>
+
+      <circle cx="102" cy="0" r="9" fill="rgba(15,23,42,0.95)" stroke="#22D3EE" stroke-width="0.8">
+        <animate attributeName="stroke-width"
+                 values="0.8;1.4;0.8"
+                 dur="4.4s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="96" y="4" fill="#E5E7EB" font-family="JetBrains Mono, monospace" font-size="8">
+        ✦
+      </text>
+    </g>
+  </g>
+</svg>
