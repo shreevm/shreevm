@@ -416,22 +416,25 @@
         <animate attributeName="opacity" values="0;1" begin="8.9s" dur="0.22s" fill="freeze"/>
       </text>
 
-      <text x="0" y="350" fill="#F59E0B" opacity="0">agent.seeking([
+      <text x="0" y="330" fill="#F59E0B" opacity="0">agent.seeking([
         <animate attributeName="opacity" values="0;1" begin="9.15s" dur="0.22s" fill="freeze"/>
       </text>
-      <text x="0" y="366" fill="#FDE68A" opacity="0">    &quot;AI / ML Engineer&quot;,
+      <text x="0" y="346" fill="#FDE68A" opacity="0">    &quot;AI / ML Engineer&quot;,
         <animate attributeName="opacity" values="0;1" begin="9.4s" dur="0.22s" fill="freeze"/>
       </text>
-      <text x="0" y="382" fill="#FDE68A" opacity="0">    &quot;Forward Deployed AI Engineer&quot;,
+      <text x="0" y="362" fill="#FDE68A" opacity="0">    &quot;Forward Deployed AI Engineer&quot;,
         <animate attributeName="opacity" values="0;1" begin="9.65s" dur="0.22s" fill="freeze"/>
       </text>
-      <text x="0" y="398" fill="#FDE68A" opacity="0">    &quot;Computer Vision Engineer&quot;,
+      <text x="0" y="378" fill="#FDE68A" opacity="0">    &quot;Computer Vision Engineer&quot;,
         <animate attributeName="opacity" values="0;1" begin="9.9s" dur="0.22s" fill="freeze"/>
       </text>
-      <text x="0" y="414" fill="#FDE68A" opacity="0">    &quot;Software Engineer&quot;
+      <text x="0" y="394" fill="#FDE68A" opacity="0">    &quot;Software Engineer&quot;
         <animate attributeName="opacity" values="0;1" begin="10.15s" dur="0.22s" fill="freeze"/>
       </text>
-      <text x="0" y="430" fill="#F59E0B" opacity="0">])
+      <text x="0" y="410" fill="#FDE68A" opacity="0">    &quot;AI Evaluation Engineer&quot;
+        <animate attributeName="opacity" values="0;1" begin="10.15s" dur="0.22s" fill="freeze"/>
+      </text>
+      <text x="0" y="426" fill="#F59E0B" opacity="0">])
         <animate attributeName="opacity" values="0;1" begin="10.4s" dur="0.22s" fill="freeze"/>
       </text>
 
