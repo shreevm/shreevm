@@ -4,13 +4,6 @@
 <!-- <h1 align="center">Hi, I'm Shree Varaa Mangai V 👋</h1>
 <h3 align="center">ML/AI Engineer · Full-Stack Developer · MS in Artificial Intelligence Systems, University of Florida</h3> -->
 
-<p align="center">
-  <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-shreevaraamangai%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"></a>
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
-  <!-- <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a> -->
-  <a href="https://portfolioprofile-h941hcfar-shreevarvenkatr-7223s-projects.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a>
-  <img src="https://komarev.com/ghpvc/?username=shreevm&label=Profile%20Views&color=blueviolet&style=flat">
-</p>
 
 
 <p align="center">
@@ -24,6 +17,15 @@ I am actively seeking **Entry-Level / Associate** roles starting immediately in:
 * **Computer Vision Engineer**
 * **Evaluation / Benchmark Engineer**
 *  **Software Engineering** -->
+
+
+<p align="center">
+  <a href="mailto:shreevaraamangai@gmail.com"><img src="https://img.shields.io/badge/Email-shreevaraamangai%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"></a>
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
+  <!-- <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a> -->
+  <a href="https://portfolioprofile-h941hcfar-shreevarvenkatr-7223s-projects.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white"></a>
+  <img src="https://komarev.com/ghpvc/?username=shreevm&label=Profile%20Views&color=blueviolet&style=flat">
+</p>
 
 
 *📧 Feel free to reach out via [Email](mailto:shreevaraamangai@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/shreevaraamangai/) if you have opportunities or want to collaborate!*
@@ -347,7 +349,7 @@ PostgreSQL | Swagger
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shreevm&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 <p align="center">
