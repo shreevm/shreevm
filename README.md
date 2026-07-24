@@ -1,8 +1,6 @@
 
 <!-- 1. HERO BANNER SVG -->
-<p align="center">
-  <img src="./assets/dark.svg" alt="Shree VM – AI Engineer Hero Banner" />
-</p>
+
 <h1 align="center">Hi, I'm Shree Varaa Mangai V 👋</h1>
 <h3 align="center">ML/AI Engineer · Full-Stack Developer · MS in Artificial Intelligence Systems, University of Florida</h3>
 
@@ -14,6 +12,10 @@
   <img src="https://komarev.com/ghpvc/?username=shreevm&label=Profile%20Views&color=blueviolet&style=flat">
 </p>
 
+
+<p align="center">
+  <img src="./assets/agent_banner.svg" alt="Shree VM – AI Engineer Hero Banner" />
+</p>
 ---
 ### 🎯 What I'm Looking For
 I am actively seeking **Entry-Level / Associate** roles starting immediately in:
