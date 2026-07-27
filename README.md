@@ -74,6 +74,7 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white">
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black">
 </p>
 
 **Databases & Cloud**
@@ -82,9 +83,9 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white">
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black">
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white">
+
 </p>
 
 **Data & Visualization**
