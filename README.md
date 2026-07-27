@@ -332,9 +332,6 @@ PostgreSQL | Swagger
 
 
 
----
-
-
 ### Certifications
 
 - Building with the Claude API - Anthropic (July 2026)
