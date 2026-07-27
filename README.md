@@ -125,7 +125,7 @@ large medical documents through a single intelligent interface.
 
 [Tech]
 Python | FastAPI | LangGraph | MCP | NVIDIA NIM |
-Redis | Supabase | React | TypeScript
+Redis | Supabase | Next.js | TypeScript
 ```
 
 ---
