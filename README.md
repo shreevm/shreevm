@@ -343,8 +343,6 @@ PostgreSQL | Swagger
 - Fine-Tuning LLMs for Cybersecurity (Mistral, Llama, AutoTrain, AutoGen, LLM Agents) - LinkedIn Learning (Jan 2025)
 - Tesla Stock Price Prediction & Google Cloud Fundamentals - Coursera (Dec 2023 / Aug 2022)
 - Cloud Computing & Distributed Systems; Java Programming - NPTEL (Mar 2021 / Oct 2021)
-
--
 ---
 
 ### 📈 GitHub Stats
