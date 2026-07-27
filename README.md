@@ -100,7 +100,7 @@ I'm a recent graduate with an **MS in Artificial Intelligence Systems** from the
 # Featured Projects
 
 ### 🩺 CareMind: Agentic Clinical RAG Assistant
-📅 May 2026 – Jun 2026 | 🔗 [GitHub](https://github.com/shreevm/CareMind/tree/new_CareMind)
+📅 May 2026 – Ongoing | 🔗 [GitHub](https://github.com/shreevm/CareMind/tree/new_CareMind)
 
 ```bash
 [Problem]
